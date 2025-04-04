@@ -1,13 +1,18 @@
 .cor-texto-azul{
     color: var(--azul-principal);
+    font-size: 13px;
 }
 .cor-texto-azul:hover{
     color: var(--azul-destaque);
 }
-
+.cor-azul{
+    color: var(--azul-principal);
+}
 .cor-texto-branco{
     color: var(--branco);
+    font-size: 13px;
 }
+
 .fundo-azul{
     background-color: var(--azul-principal);
 }
