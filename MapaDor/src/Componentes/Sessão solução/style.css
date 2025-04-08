@@ -1,0 +1,36 @@
+.caixas {
+    border-radius: 20px;
+    border: 2px solid var(--azul-destaque);
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.07);
+    margin-bottom: 20px;
+}
+
+.titulo_caixa{
+    background-color: var(--azul-destaque);
+    border-radius: 18px 18px 0px 0px;
+    padding: 10px 0px 6px 0px;
+}
+.titulo_caixa h3{
+    text-align: center;
+    color: var(--azul-principal);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.caixas p{
+    text-align: center;
+    color: var(--cinza-texto);
+    font-size: 15px;
+    margin: 20px;
+}
+
+@media(max-width: 633px){
+    .titulo_caixa h3{
+        font-size: 20px;
+    }
+    
+    .caixas p{
+        font-size: 12px;
+        margin: 15px;
+    }
+}
