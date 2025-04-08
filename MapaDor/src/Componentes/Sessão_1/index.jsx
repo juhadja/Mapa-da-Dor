@@ -1,6 +1,7 @@
 import './style.css'
 import Cabecalho from "../Cabeçalho";
 import MenuNav from "../menuNavegacao";
+import SessaoArtigo from '../Sessão_artigo';
 
 export default function Sessao1 (){
     return(
@@ -15,6 +16,7 @@ export default function Sessao1 (){
                     <i class="bi bi-arrow-up-right fs-3 cor-branco"></i>
                 </div>
             </div>
+            <SessaoArtigo />
         </div>
         
     )

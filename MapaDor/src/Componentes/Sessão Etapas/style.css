@@ -1,0 +1,37 @@
+.sessoes_etapas {
+
+    padding-top: 150px;
+    margin: 0em 1em;
+}
+
+.sessao_etapa {
+    text-align: center;
+}
+
+.icones {
+    margin-bottom: 20px;
+}
+
+.sessao_etapa h3 {
+    color: var(--azul-principal);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sessao_etapa p {
+    color: var(--cenza-texto);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.listra_azul{
+    background-color: var(--azul-principal);
+    height: 50px;
+    margin: 50px 0px;
+}
+
+@media(max-width: 993px) {
+    .sessoes_etapas {
+        padding-top: 270px;
+    }
+}

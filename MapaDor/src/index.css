@@ -1,6 +1,7 @@
 :root{
   --branco: #ffffff;
   --cinza-fundo: #f5f5f5;
+  --cinza-texto:#6A6A6A;
   --azul-principal: #344D88;
   --azul-destaque: #1BC5E3;
   --fonte: 'Montserrat', sans-serif;
@@ -14,5 +15,5 @@
 
 body{
   font-family: var(--fonte);
-  background-color: var(--cinza-fundo);
+  background-color: var(--branco);
 }

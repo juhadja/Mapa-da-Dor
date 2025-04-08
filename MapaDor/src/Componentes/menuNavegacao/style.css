@@ -1,34 +1,52 @@
-.logo{
+.logo {
     width: 130px;
 
 }
-.botao_mapa{
+
+.botao_mapa {
     background-color: var(--azul-principal);
     padding: 8px 28px;
     margin-right: 4em;
     border-radius: 38px;
-    
+
 }
-@media (max-width: 992px){
-    .botao_mapa{
+
+@media (max-width: 992px) {
+    .botao_mapa {
         margin-right: 1em;
     }
 }
-.botao_mapa:hover{
+
+@media (max-width: 839px) {
+    .botao_mapa {
+        padding: 5px 14px;
+    }
+
+    .botao_mapa a {
+        font-size: 14px;
+    }
+}
+
+
+.botao_mapa:hover {
     background-color: var(--azul-destaque);
 }
-.botao_mapa a{
+
+.botao_mapa a {
     color: var(--branco);
     text-decoration: none;
 }
-.cor-texto-azul{
+
+.cor-texto-azul {
     color: var(--azul-principal);
 }
-.cor-texto-azul:hover{
+
+.cor-texto-azul:hover {
     color: var(--azul-destaque);
 }
-nav{
+
+nav {
     background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(7.099999904632568px);
-    
+
 }
