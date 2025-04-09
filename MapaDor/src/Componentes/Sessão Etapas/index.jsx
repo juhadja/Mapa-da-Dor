@@ -2,7 +2,6 @@ import './style.css'
 import imagem1 from './assets/1.svg'
 import imagem2 from './assets/2.svg'
 import imagem3 from './assets/3.svg'
-import Dot from './assets/bolinha.svg'
 
 export default function SessaoEtapas() {
     return (
