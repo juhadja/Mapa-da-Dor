@@ -7,6 +7,7 @@ import SessaoArtigo from './Componentes/Sessão_artigo'
 import SessaoEtapas from './Componentes/Sessão Etapas'
 import SessaoSolucao from './Componentes/Sessão solução'
 import Dashboard from './Componentes/Sessão Dashboard'
+import Microexpressao from './Componentes/Sessão Microexpressão'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <SessaoEtapas />
         <SessaoSolucao />
         <Dashboard />
+        <Microexpressao />
       </main>
       
 
