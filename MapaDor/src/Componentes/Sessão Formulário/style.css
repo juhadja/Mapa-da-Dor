@@ -7,22 +7,25 @@
 .textos {
     margin: 10% 10% 0% 10%;
     color: var(--azul-principal);
-    
+
 }
-.textos h3{
+
+.textos h3 {
     font-size: 32px;
     font-weight: 400;
 }
 
-.textos h2{
+.textos h2 {
     font-size: 36px;
     font-weight: 700;
 }
-.feedback{
+
+.feedback {
     text-align: center;
     margin-bottom: 20px;
     padding: 10px;
 }
+
 .area_formulario {
     background-color: var(--branco);
     border-radius: 15px;
@@ -30,19 +33,21 @@
     top: -80px;
 }
 
-.area_formulario h2{
+.area_formulario h2 {
     text-align: center;
     margin-top: 50px;
     color: var(--azul-principal);
     font-weight: 600;
-} 
-.preencha_campos{
+}
+
+.preencha_campos {
     text-align: center;
     margin-bottom: 45px;
     color: var(--azul-destaque);
     font-size: 20px;
-} 
-input{
+}
+
+input {
     width: 378px;
     height: 40px;
     background: #F0F0F0;
@@ -52,19 +57,23 @@ input{
 
 
 }
-input[type=text]::placeholder{
+
+input[type=text]::placeholder {
     padding-left: 20px;
     color: var(--azul-principal);
 }
-input[type=email]::placeholder{
+
+input[type=email]::placeholder {
     padding-left: 20px;
     color: var(--azul-principal);
 }
-input[type=number]::placeholder{
+
+input[type=number]::placeholder {
     padding-left: 20px;
     color: var(--azul-principal);
 }
-textarea{
+
+textarea {
     width: 378px;
     height: 150px;
     background: #F0F0F0;
@@ -72,11 +81,13 @@ textarea{
     border: none;
     margin: 0px 68px 30px 68px;
 }
-textarea::placeholder{
+
+textarea::placeholder {
     padding: 20px 0px 0px 20px;
     color: var(--azul-principal);
 }
-.botaoEnviar{
+
+.botaoEnviar {
     width: 378px;
     height: 50px;
     background-color: var(--azul-principal);
@@ -85,46 +96,69 @@ textarea::placeholder{
 
     margin: 0px 68px 70px 68px;
 }
-.botaoEnviar p{
+
+.botaoEnviar p {
     margin-top: 12px;
     color: var(--branco);
     font-size: 18px;
     font-weight: 600;
 }
 
+.mensagem-engracada {
+    text-align: center;
+}
+
+.botaoResetar {
+    margin: 0px 0px 10px 185px;
+    background-color: rgb(183, 183, 183);
+    border: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    color: var(--branco);
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.botaoResetar:hover {
+    background-color: var(--azul-destaque);
+}
 
 
 form {
     flex-direction: column;
 }
 
-@media(max-width: 1300px){
+@media(max-width: 1300px) {
     .area_formulario {
         position: relative;
         top: -30px;
     }
+
     .textos {
         margin: 120px 20px 0px 80px;
-        
+
     }
-    .textos h3{
+
+    .textos h3 {
         font-size: 26px;
     }
-    
-    .textos h2{
+
+    .textos h2 {
         font-size: 28px;
     }
-    .textos img{
+
+    .textos img {
         margin-top: 95px;
         width: 300px;
     }
 }
 
-@media(max-width: 1050px){
-    .formulario{
+@media(max-width: 1050px) {
+    .formulario {
         justify-content: center;
     }
-    .textos{
+
+    .textos {
         display: none;
     }
 }
