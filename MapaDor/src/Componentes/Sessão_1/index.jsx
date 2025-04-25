@@ -1,12 +1,13 @@
 import './style.css'
-import Cabecalho from "../Cabeçalho";
 import MenuNav from "../menuNavegacao";
 import SessaoArtigo from '../Sessão_artigo';
 
 export default function Sessao1 (){
     return(
         <div className='sessao_1'>
-            <Cabecalho />
+            <div className='listra-azul'>
+
+            </div>
             <MenuNav />
             <div className='area_titulos'>
                 <p className='fw-semibold cor-azul-destaque mx-0 mx-md-5'>Hospital Sabará</p>

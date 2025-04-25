@@ -8,6 +8,8 @@ import SessaoEtapas from './Componentes/Sessão Etapas'
 import SessaoSolucao from './Componentes/Sessão solução'
 import Dashboard from './Componentes/Sessão Dashboard'
 import Microexpressao from './Componentes/Sessão Microexpressão'
+import Formulario from './Componentes/Sessão Formulário'
+import Rodape from './Componentes/Rodapé'
 
 
 function App() {
@@ -22,8 +24,11 @@ function App() {
         <SessaoSolucao />
         <Dashboard />
         <Microexpressao />
+        <Formulario />
       </main>
-      
+      <footer>
+        <Rodape />
+      </footer>
 
     </div>
   )

@@ -34,6 +34,12 @@
 
     text-align: center;
 }
+
+.carousel-item{
+    width: 700px;
+    height: 210px;
+}
+
 .sessao_artigo h2{
     color: var(--azul-principal);
     font-size: clamp(18px, 5vw, 32px);
@@ -73,12 +79,21 @@
     .artigo{
         height: 240px;
     }
+    .artigo p{
+        width: 450px;
+    }
+}
+@media(max-width: 650px){
+    .artigo p{
+        width: 350px;
+    }
 }
 @media(max-width: 587px){
     .artigo p{
         font-size: 12px;
         margin: 0px 50px;
     }
+    
   
     
 }

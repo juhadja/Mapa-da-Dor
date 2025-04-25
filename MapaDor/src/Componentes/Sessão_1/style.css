@@ -1,3 +1,8 @@
+.listra-azul{
+    height: 30px;
+    background-color: var(--azul-principal);
+}
+
 .sessao_1 {
     background-image: url(./assets/background.png);
     background-position: center right;
