@@ -1,6 +1,7 @@
 import './style.css'
 import Logo from './assets/logo.svg'
 
+
 export default function MenuNav() {
   return (
 

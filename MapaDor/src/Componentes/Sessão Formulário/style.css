@@ -18,7 +18,11 @@
     font-size: 36px;
     font-weight: 700;
 }
-
+.feedback{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
 .area_formulario {
     background-color: var(--branco);
     border-radius: 15px;

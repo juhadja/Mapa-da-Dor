@@ -3,6 +3,30 @@ import Boneca from './assets/boneca.png'
 import React, { useState } from 'react';
 
 export default function Formulario() {
+
+  const [nome, setNome] = useState('');
+  const [email, setEmail] = useState('');
+  const [telefone, setTelefone] = useState('');
+  const [mensagem, setMensagem] = useState('');
+  const [feedback, setFeedback] = useState({ tipo: '', texto: '' });
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (!nome || !email || !telefone || !mensagem) {
+      setFeedback({ tipo: 'erro', texto: 'Por favor, preencha todos os campos.' });
+      return;
+    }
+
+    setFeedback({ tipo: 'sucesso', texto: 'Mensagem enviada com sucesso!' });
+
+    // Reseta os campos
+    setNome('');
+    setEmail('');
+    setTelefone('');
+    setMensagem('');
+  };
+
   return (
     <div>
 
@@ -14,23 +38,34 @@ export default function Formulario() {
           <h2>Entre em contato <br></br> conosco!</h2>
           <img src={Boneca} alt="" />
         </div>
- 
+
         <div className='area_formulario'>
           <h2>Entre em contato conosco!</h2>
-          
           <p className='preencha_campos'>Preencha todos os campos</p>
-          <form action="">
+          {feedback.texto && (
+            <div className='feedback' style={{
+              ...styles.mensagem,
+              ...(feedback.tipo === 'erro' ? styles.erro : styles.sucesso),
+            }}>
+              {feedback.texto}
+            </div>
+          )}
+          <form onSubmit={handleSubmit} action="">
             <div class="area">
-              <input type="text" placeholder='Nome completo' />
+              <input type="text" placeholder='Nome completo' value={nome}
+          onChange={(e) => setNome(e.target.value)}/>
             </div>
             <div class="area">
-              <input type="email" placeholder='E-mail' />
+              <input type="email" placeholder='E-mail' value={email}
+          onChange={(e) => setEmail(e.target.value)}/>
             </div>
             <div class="area">
-              <input type="number" placeholder='Número de telefone' />
+              <input type="number" placeholder='Número de telefone' value={telefone}
+          onChange={(e) => setTelefone(e.target.value)}/>
             </div>
             <div class="areatexto">
-              <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem"></textarea>
+              <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" value={mensagem}
+          onChange={(e) => setMensagem(e.target.value)}></textarea>
             </div>
             <div>
               <button className='botaoEnviar' type="submit"><p>Enviar</p></button>
@@ -40,4 +75,14 @@ export default function Formulario() {
       </div>
     </div>
   )
+}
+const styles = {
+  erro: {
+    backgroundColor: '#ffe5e5',
+    color: '#c20000',
+  },
+  sucesso: {
+    backgroundColor: '#e6ffe5',
+    color: '#007c00',
+  },
 }
