@@ -1,6 +1,7 @@
 import './style.css'
 import Boneca from './assets/boneca.png'
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 
 export default function Formulario() {
 
@@ -12,20 +13,38 @@ export default function Formulario() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
+  
     if (!nome || !email || !telefone || !mensagem) {
       setFeedback({ tipo: 'erro', texto: 'Por favor, preencha todos os campos.' });
       return;
     }
-
-    setFeedback({ tipo: 'sucesso', texto: 'Mensagem enviada com sucesso!' });
-
-    // Reseta os campos
-    setNome('');
-    setEmail('');
-    setTelefone('');
-    setMensagem('');
+  
+    const templateParams = {
+      nome,
+      email,
+      telefone,
+      mensagem,
+    };
+  
+    emailjs.send(
+      'service_66etgts',
+      'template_trkj0n9',
+      templateParams,
+      'kGRfK8hvzyAf_FeZG'
+    )
+    .then(() => {
+      setFeedback({ tipo: 'sucesso', texto: 'Mensagem enviada com sucesso!' });
+      setNome('');
+      setEmail('');
+      setTelefone('');
+      setMensagem('');
+    })
+    .catch((error) => {
+      console.error('Erro ao enviar:', error);
+      setFeedback({ tipo: 'erro', texto: 'Erro ao enviar mensagem. Tente novamente mais tarde.' });
+    });
   };
+  
 
   return (
     <div>

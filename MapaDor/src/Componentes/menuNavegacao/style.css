@@ -2,7 +2,19 @@
     width: 130px;
 
 }
-
+.header {
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  .header.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.779);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1000;
+  }
 .botao_mapa {
     background-color: var(--azul-principal);
     padding: 8px 28px;
