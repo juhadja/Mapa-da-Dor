@@ -1,4 +1,8 @@
 .rodape{
-    height: 100px;
+    text-align: center;
     background-color: var(--azul-principal);
+}
+.rodape p{
+    color: var(--branco);
+    padding: 20px;
 }

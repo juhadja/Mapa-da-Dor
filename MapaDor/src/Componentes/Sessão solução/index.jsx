@@ -13,7 +13,7 @@ export default function SessaoSolucao() {
                 <div className="titulo_caixa">
                     <h3>Solução!</h3>
                 </div>
-                <p>O Mapa da Dor utiliza uma tela com ilustração do corpo humano de forma interativa. As crianças podem tocar nas áreas onde estão sentindo os incômodos, isso leva para uma tela ativando animações didáticas que ajudam na seleção de sintomas de forma acessível e compreensível. Após a criança completar o processo, o sistema realiza uma validação ao revisar alguns sintomas já selecionados para confirmar sua consistência. Garantindo a precisão das informações coletadas. Essas informações serão enviadas aos profissionais que cuidarão desse paciente para que o diagnóstico seja feito da melhor forma possível</p>
+                <p id='dashboard'>O Mapa da Dor utiliza uma tela com ilustração do corpo humano de forma interativa. As crianças podem tocar nas áreas onde estão sentindo os incômodos, isso leva para uma tela ativando animações didáticas que ajudam na seleção de sintomas de forma acessível e compreensível. Após a criança completar o processo, o sistema realiza uma validação ao revisar alguns sintomas já selecionados para confirmar sua consistência. Garantindo a precisão das informações coletadas. Essas informações serão enviadas aos profissionais que cuidarão desse paciente para que o diagnóstico seja feito da melhor forma possível</p>
             </div>
         </div>
     )

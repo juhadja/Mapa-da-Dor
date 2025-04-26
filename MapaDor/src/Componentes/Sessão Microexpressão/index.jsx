@@ -11,7 +11,7 @@ export default function Microexpressao() {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultrices quam est, vitae ornare purus faucibus vitae. Sed ligula magna, molestie eu libero id, feugiat porttitor massa. Aenean faucibus ex eros, eu auctor eros ultrices ac. Nulla varius pharetra pellentesque. Praesent dolor risus, condimentum dictum sapien ut, convallis tempor turpis. Maecenas efficitur ultrices ligula. Nam vestibulum vitae eros eget semper.</p>
                 </div>
             </div>
-            <div className='d-flex caixa_azul_claro'>
+            <div className='d-flex caixa_azul_claro' id='contatos'>
                 <div className='mini_textos'>
                     <h3>Lorem ipsum</h3>
                     <p>dolor sit amet</p>

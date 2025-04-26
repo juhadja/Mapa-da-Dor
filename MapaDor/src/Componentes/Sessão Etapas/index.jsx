@@ -23,7 +23,7 @@ export default function SessaoEtapas() {
                     <p>O sistema de informações (dashboard) é personalizado para que os profissionais tenham o acesso facilitado às informações necessárias do paciente. Como: sintomas, sinais vitais, resultados de exames, histórico</p>
                 </div>
             </div>
-            <div className='listra_azul'></div>
+            <div className='listra_azul' id='solucao'></div>
         </div>
     )
 }

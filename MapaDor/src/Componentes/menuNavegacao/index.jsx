@@ -28,13 +28,13 @@ export default function MenuNav() {
                 <a class="nav-link fw-medium cor-texto-azul fs-6" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fw-medium cor-texto-azul fs-6" href="#">Solução</a>
+                <a class="nav-link fw-medium cor-texto-azul fs-6" href="#solucao">Solução</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fw-medium cor-texto-azul fs-6" href="#">Dashboard</a>
+                <a class="nav-link fw-medium cor-texto-azul fs-6" href="#dashboard">Dashboard</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fw-medium cor-texto-azul fs-6" href="#">Contatos</a>
+                <a class="nav-link fw-medium cor-texto-azul fs-6" href="#contatos">Contatos</a>
               </li>
             </ul>
             <div>
