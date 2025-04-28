@@ -16,4 +16,9 @@
 body{
   font-family: var(--fonte);
   background-color: var(--branco);
+
+}
+html, body {
+  overflow-x: hidden;
+  width: 100%;
 }

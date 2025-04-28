@@ -144,10 +144,18 @@
 @media(max-width: 415px){
     .artigo p{
         width: 250px;
+        margin: 0px 48px;
+    }
+    
+} 
+@media(max-width: 390px){
+    .artigo p{
+        width: 250px;
         margin: 0px 40px;
     }
     
 } 
+
 @media(max-width: 375px){
     .artigo p{
         width: 230px;
