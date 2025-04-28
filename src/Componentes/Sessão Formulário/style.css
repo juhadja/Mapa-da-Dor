@@ -55,21 +55,21 @@ input {
     border: none;
     margin: 0px 68px 10px 68px;
 
+    padding: 20px;
+    box-sizing: border-box;
+
 
 }
 
 input[type=text]::placeholder {
-    padding-left: 20px;
     color: var(--azul-principal);
 }
 
 input[type=email]::placeholder {
-    padding-left: 20px;
     color: var(--azul-principal);
 }
 
 input[type=number]::placeholder {
-    padding-left: 20px;
     color: var(--azul-principal);
 }
 
@@ -80,10 +80,12 @@ textarea {
     border-radius: 20px;
     border: none;
     margin: 0px 68px 30px 68px;
+    padding: 20px 0px 0px 20px;
+    box-sizing: border-box;
 }
 
 textarea::placeholder {
-    padding: 20px 0px 0px 20px;
+
     color: var(--azul-principal);
 }
 

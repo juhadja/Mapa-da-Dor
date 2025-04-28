@@ -1,5 +1,5 @@
 import './style.css'
-import Logo from './assets/logo.svg'
+import Logo from './assets/logo.png'
 import { useEffect, useState } from 'react';
 
 export default function MenuNav() {
@@ -18,7 +18,7 @@ export default function MenuNav() {
     <header className={`header ${isSticky ? 'sticky' : ''}`}>
       <nav className="navbar navbar-expand-md " >
         <div class="container-fluid">
-          <img className="logo m-3 mx-3 mx-lg-5" src={Logo} alt="logo do sabará" />
+          <img className="logo m-1 mx-3 mx-lg-5" src={Logo} alt="logo do sabará" />
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>

@@ -23,7 +23,7 @@ function App() {
         <SessaoEtapas />
         <SessaoSolucao />
         <Dashboard />
-        <Microexpressao />
+        {/* <Microexpressao />  */}
         <Formulario />
       </main>
       <footer>
