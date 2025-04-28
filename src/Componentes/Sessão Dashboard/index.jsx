@@ -43,7 +43,7 @@ export default function Dashboard() {
                 <div className='caixinha col'>
                     <img src={Linha} alt="" className='linha'/>
                     <img src={placa} alt="" className='icone'/>
-                    <p >Paciente agora-  (Se estiver no hospital) O que esta fazendo no momento, horários, sintomas do momento, últimos sinais vitais tirados, tudo o que foi pedido no dia que ainda não fez</p>
+                    <p id='contatos'>Paciente agora-  (Se estiver no hospital) O que esta fazendo no momento, horários, sintomas do momento, últimos sinais vitais tirados, tudo o que foi pedido no dia que ainda não fez</p>
                 </div>
             </div>
         </div>
