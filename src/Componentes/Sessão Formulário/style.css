@@ -164,3 +164,68 @@ form {
         display: none;
     }
 }
+@media(max-width: 625px){
+    input {
+        width: 320px;
+        margin: 0px 50px 10px 50px;
+
+    }
+    textarea {
+        width: 320px;
+        margin: 0px 50px 10px 50px;
+    }
+    .botaoEnviar {
+        width: 320px;
+    
+        margin: 0px 50px 70px 50px;
+    }
+    .area_formulario h2 {
+        font-size: 23px;
+    }
+    
+    .preencha_campos {
+        margin-bottom: 35px;
+        font-size: 17px;
+    }
+    .botaoResetar {
+        margin: 0px 0px 10px 140px;
+    }
+    .mensagem-engracada{
+        width: 300px;
+        margin-left: 60px;
+    }
+}
+@media(max-width: 510px){
+    input {
+        width: 260px;
+        margin: 0px 40px 10px 40px;
+
+    }
+    textarea {
+        width: 260px;
+        margin: 0px 40px 10px 40px;
+    }
+    .botaoEnviar {
+        width: 260px;
+    
+        margin: 0px 40px 70px 40px;
+    }
+    .area_formulario h2 {
+        font-size: 21px;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+    
+    .preencha_campos {
+        margin-bottom: 35px;
+        font-size: 15px;
+    }
+    .botaoResetar {
+        margin: 0px 0px 10px 100px;
+    }
+    .mensagem-engracada{
+        width: 300px;
+        margin-left: 20px;
+    }
+}
+
