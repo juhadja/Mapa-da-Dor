@@ -2,9 +2,7 @@ import './style.css'
 import Boneca from './assets/boneca.png'
 import React, { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
-
 export default function Formulario() {
-
   const [nome, setNome] = useState('');
   const [email, setEmail] = useState('');
   const [telefone, setTelefone] = useState('');
@@ -18,27 +16,21 @@ export default function Formulario() {
     setContadorEnvios(0);
     localStorage.removeItem('contadorEnvios');
   };
-
-
   useEffect(() => {
     localStorage.setItem('contadorEnvios', contadorEnvios);
   }, [contadorEnvios]);
-
   const handleSubmit = (e) => {
     e.preventDefault();
-
     if (!nome || !email || !telefone || !mensagem) {
       setFeedback({ tipo: 'erro', texto: 'Por favor, preencha todos os campos.' });
       return;
     }
-
     const templateParams = {
       nome,
       email,
       telefone,
       mensagem,
     };
-
     emailjs.send(
       'service_66etgts',
       'template_trkj0n9',
@@ -52,28 +44,21 @@ export default function Formulario() {
         setTelefone('');
         setMensagem('');
         setContadorEnvios(prev => prev + 1);
-
       })
       .catch((error) => {
         console.error('Erro ao enviar:', error);
         setFeedback({ tipo: 'erro', texto: 'Erro ao enviar mensagem. Tente novamente mais tarde.' });
       });
   };
-
-
-
   return (
     <div id='contatos'>
-
       <div className='linha_azul'></div>
-
       <div className='d-flex formulario'>
         <div className='textos'>
           <h3>Para mais informações</h3>
           <h2>Entre em contato <br></br> conosco!</h2>
           <img src={Boneca} alt="" />
         </div>
-
         <div className='area_formulario'>
           <h2>Entre em contato conosco!</h2>
           <p className='preencha_campos'>Preencha todos os campos</p>

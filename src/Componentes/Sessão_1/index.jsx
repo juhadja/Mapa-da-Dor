@@ -4,9 +4,8 @@ import SessaoArtigo from '../Sessão_artigo';
 
 export default function Sessao1 (){
     return(
-        <div className='sessao_1'>
+        <div className='sessao_1' id='home'>
             <div className='listra-azul'>
-
             </div>
             <MenuNav />
             <div className='area_titulos'>
