@@ -2,7 +2,9 @@
     height: 30px;
     background-color: var(--azul-principal);
 }
-
+.ajuste{
+    height: 90px;
+}
 .sessao_1 {
     background-image: url(./assets/background.png);
     background-position: center right;

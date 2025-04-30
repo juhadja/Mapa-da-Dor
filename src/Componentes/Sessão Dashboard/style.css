@@ -49,6 +49,17 @@
     color: var(--azul-principal);
 }
 
+@media(min-width: 1860px){
+    
+    
+    .caixa{
+        width: 1699px;
+        justify-content: center;
+
+        margin: 0px auto;
+    }
+}
+
 @media(max-width: 816px){
     .caixinha {
         border-radius: 10px;
