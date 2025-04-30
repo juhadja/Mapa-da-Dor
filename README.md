@@ -23,7 +23,7 @@ O Mapa da Dor é uma solução tecnológica interativa desenvolvida para melhora
 
   - **HTML:** Estrutura das páginas;
   - **CSS e Bootstrap:** Estilizando e organizando a aparência das páginas de forma responsiva e acessível;
-  - **React:**Criando componentes, e usando hooks para tornar funcionalidades do site interativas e validar formulários;
+  - **React:** Criando componentes, e usando hooks para tornar funcionalidades do site interativas e validar formulários;
   - **Figma:** Utilizado para o design e prototipação das páginas, fornecendo a base para o design e o layout padronizados em todo o site.
 
 ## Estrutura das páginas
