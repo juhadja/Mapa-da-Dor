@@ -10,6 +10,8 @@ O Mapa da Dor é uma solução tecnológica interativa desenvolvida para melhora
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
   <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" alt="bootstrap logo"  />
+  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
@@ -20,7 +22,7 @@ O Mapa da Dor é uma solução tecnológica interativa desenvolvida para melhora
 </div>
 
   - **HTML:** Estrutura das páginas;
-  - **CSS:** Estilizando e organizando a aparência das páginas de forma responsiva e acessível;
+  - **CSS e Bootstrap:** Estilizando e organizando a aparência das páginas de forma responsiva e acessível;
   - **React:**Criando componentes, e usando hooks para tornar funcionalidades do site interativas e validar formulários;
   - **Figma:** Utilizado para o design e prototipação das páginas, fornecendo a base para o design e o layout padronizados em todo o site.
 
@@ -39,5 +41,4 @@ https://www.figma.com/design/pzRUyHyKomRZaSSyxmzuwW/Mapa-da-Dor---Hospital-Sabar
 - **Rafaela Heer Robinson** - RM560249
 - **Lucas Alves Piereti** - RM559533
 - **Witalon Antonio Rodrigues** - RM559023
-
 
