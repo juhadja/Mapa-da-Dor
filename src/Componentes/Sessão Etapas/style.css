@@ -1,6 +1,6 @@
 .sessoes_etapas {
 
-    padding-top: 80px;
+    padding-top: 150px;
     margin: 0em 1em;
 }
 
@@ -32,6 +32,6 @@
 
 @media(max-width: 993px) {
     .sessoes_etapas {
-        padding-top: 200px;
+        padding-top: 270px;
     }
 }
