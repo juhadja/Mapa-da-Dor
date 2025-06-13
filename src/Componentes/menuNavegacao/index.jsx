@@ -38,7 +38,7 @@ export default function MenuNav() {
               </li>
             </ul>
             <div>
-              <div className='botao_mapa' ><a href="#">Mapa da Dor</a></div>
+              <div className='botao_mapa' ><a href="https://lucaspieretidev.github.io/mapa-da-dor-animacoes/">Mapa da Dor</a></div>
             </div>
           </div>
         </div>

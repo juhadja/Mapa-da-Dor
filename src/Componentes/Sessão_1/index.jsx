@@ -24,7 +24,7 @@ export default function Sessao1 (){
                 <p className='fw-semibold cor-azul-destaque mx-0 mx-md-5'>Hospital Sabará</p>
                 <h1 className='titulo cor-azul fw-semibold'>Seu diagnóstico<br></br> <strong className='titulo_destaque'>interativo!</strong></h1>
                 <div className='botao_teste'>
-                    <a href="#">Teste você mesmo</a>
+                    <a href="https://lucaspieretidev.github.io/mapa-da-dor-animacoes/">Teste você mesmo</a>
                     <i class="bi bi-arrow-up-right fs-3 cor-branco"></i>
                 </div>
             </div>
