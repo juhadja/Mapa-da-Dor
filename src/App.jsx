@@ -4,6 +4,8 @@ import SessaoEtapas from './Componentes/Sessão Etapas'
 import SessaoSolucao from './Componentes/Sessão solução'
 import Formulario from './Componentes/Sessão Formulário'
 import Rodape from './Componentes/Rodapé'
+import MapaGoogle from './Componentes/Mapa/Mapa'
+
 
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
         <SessaoEtapas />
         <SessaoSolucao />
         <Formulario />
+        <MapaGoogle />
       </main>
       <footer>
         <Rodape />
