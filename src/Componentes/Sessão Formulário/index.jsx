@@ -12,10 +12,10 @@ export default function Formulario() {
     const valorSalvo = localStorage.getItem('contadorEnvios');
     return valorSalvo ? parseInt(valorSalvo, 10) : 0;
   });
-  const resetarContador = () => {
-    setContadorEnvios(0);
-    localStorage.removeItem('contadorEnvios');
-  };
+  // const resetarContador = () => {
+  //   setContadorEnvios(0);
+  //   localStorage.removeItem('contadorEnvios');
+  // };
   useEffect(() => {
     localStorage.setItem('contadorEnvios', contadorEnvios);
   }, [contadorEnvios]);
@@ -99,9 +99,9 @@ export default function Formulario() {
                 </p>
               )}
             </div>
-            <button className='botaoResetar' onClick={resetarContador}>
+            {/* <button className='botaoResetar' onClick={resetarContador}>
                 Resetar contador
-              </button>
+              </button> */}
           </form>
         </div>
       </div>
