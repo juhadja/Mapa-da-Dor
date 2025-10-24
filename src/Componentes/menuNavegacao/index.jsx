@@ -18,7 +18,7 @@ export default function MenuNav() {
     <header className={`header ${isSticky ? 'sticky' : ''}`}>
       <nav className="navbar navbar-expand-md " >
         <div class="container-fluid">
-          <a href="#home"><img className="logo mx-3 mx-lg-5" src={Logo} alt="logo do sabará" /></a>
+          <a href="#home"><img className="logo mt-3  mx-3 mx-lg-5" src={Logo} alt="logo do sabará" /></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -29,9 +29,6 @@ export default function MenuNav() {
               </li>
               <li class="nav-item">
                 <a class="nav-link fw-medium cor-texto-azul fs-6" href="#solucao">Solução</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fw-medium cor-texto-azul fs-6" href="#dashboard">Dashboard</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link fw-medium cor-texto-azul fs-6" href="#contatos">Contatos</a>
